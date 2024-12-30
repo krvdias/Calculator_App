@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return;
         }
         if (buttonText.equals("C")) {
-            if (dataToCalculate.length() > 1 && !dataToCalculate.equals("")) { // Check if dataToCalculate is empty
+            if (dataToCalculate.length() > 1 && !dataToCalculate.isEmpty()) { // Check if dataToCalculate is empty
                 dataToCalculate = dataToCalculate.substring(0, dataToCalculate.length() - 1);
             } else {
                 solutionTv.setText("");
