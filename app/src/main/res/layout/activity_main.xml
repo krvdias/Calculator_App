@@ -5,18 +5,19 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F5F5"
+
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/solution_tv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@id/result_tv"
         android:layout_margin="16dp"
         android:text=""
         android:textAlignment="textEnd"
         android:textColor="#000000"
-        android:textSize="40dp" />
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/result_tv"
@@ -26,7 +27,7 @@
         android:layout_margin="16dp"
         android:textAlignment="textEnd"
         android:textColor="#000000"
-        android:textSize="64dp" />
+        android:textSize="64sp" />
 
     <LinearLayout
         android:id="@+id/buttons_layout"
@@ -45,54 +46,54 @@
 
             <Button
                 android:id="@+id/button_c"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="66dp"
                 android:height="72dp"
                 android:backgroundTint="#E32B2B"
                 android:text="C"
                 android:textColorLink="#FCFDFD"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/open_bracket"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#7D8181"
                 android:text="("
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/close_bracket"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#7D8181"
                 android:text=")"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/devide"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#FF9800"
                 android:text="/"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
         </LinearLayout>
@@ -105,54 +106,54 @@
 
             <Button
                 android:id="@+id/button_7"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="66dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="7"
                 android:textColorLink="#FCFDFD"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/button_8"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="8"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/button_9"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="9"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/multiply"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#FF9800"
                 android:text="*"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
         </LinearLayout>
@@ -165,54 +166,54 @@
 
             <Button
                 android:id="@+id/button_4"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="66dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="4"
                 android:textColorLink="#FCFDFD"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/button_5"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="5"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/button_6"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="6"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/add"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#FF9800"
                 android:text="+"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
         </LinearLayout>
@@ -225,54 +226,54 @@
 
             <Button
                 android:id="@+id/button_1"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="66dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="1"
                 android:textColorLink="#FCFDFD"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/button_2"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="2"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/button_3"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="3"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/substract"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#FF9800"
                 android:text="-"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
         </LinearLayout>
@@ -285,54 +286,54 @@
 
             <Button
                 android:id="@+id/button_clear"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="66dp"
                 android:height="72dp"
                 android:backgroundTint="#D61A2A"
                 android:text="AC"
                 android:textColorLink="#FCFDFD"
-                android:textSize="19dp"
+                android:textSize="19sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/button_0"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="0"
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/dot"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#1AD6C5"
                 android:text="."
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
             <Button
                 android:id="@+id/equal"
-                android:layout_width="74dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
+                android:layout_margin="5dp"
                 android:width="72dp"
                 android:height="72dp"
                 android:backgroundTint="#FF9800"
                 android:text="="
                 android:textColorLink="#3EF6E5"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 app:cornerRadius="36dp" />
 
         </LinearLayout>

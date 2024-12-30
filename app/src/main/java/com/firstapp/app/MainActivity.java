@@ -1,5 +1,6 @@
 package com.firstapp.app;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -50,6 +51,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         assignId(button7,R.id.button_7);
         assignId(button8,R.id.button_8);
         assignId(button9,R.id.button_9);
+
+        // app only show portrait mood
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());

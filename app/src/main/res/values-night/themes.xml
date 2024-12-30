@@ -4,9 +4,11 @@
         <!-- Customize your dark theme here. -->
         <item name="colorPrimary">@color/orange</item>
         <item name="colorPrimaryVariant">#FFC107</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
 
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
+
+    <style name="Theme.Firstapp" parent="Base.Theme.Firstapp" />
 </resources>
