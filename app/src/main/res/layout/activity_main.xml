@@ -16,7 +16,7 @@
         android:layout_margin="16dp"
         android:text=""
         android:textAlignment="textEnd"
-        android:textColor="#000000"
+        android:textColorLink="@color/black"
         android:textSize="40sp" />
 
     <TextView
@@ -26,15 +26,14 @@
         android:layout_above="@id/buttons_layout"
         android:layout_margin="16dp"
         android:textAlignment="textEnd"
-        android:textColor="#000000"
-        android:textSize="64sp" />
+        android:textColorLink="@color/black"
+        android:textSize="80sp" />
 
     <LinearLayout
         android:id="@+id/buttons_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#F1F1F1"
         android:orientation="vertical"
         android:paddingVertical="16dp">
 
